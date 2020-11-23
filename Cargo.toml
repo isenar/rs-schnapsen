@@ -1,13 +1,12 @@
 [package]
 name = "rs-schnapsen"
 version = "0.1.0"
-authors = ["Dariusz Dajka <ext-lux-dd@ad.datcon.co.uk>"]
+authors = ["Dariusz Dajka <dariusz.dajka@gmail.com>"]
 edition = "2018"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [workspace]
-
 members = [
     "card-deck",
     "schnapsen",
