@@ -1,9 +1,12 @@
 [package]
 name = "card-deck"
 version = "0.1.0"
-authors = ["Dariusz Dajka <dariusz.dajka@gmail.com"]
+authors = ["Dariusz Dajka <dariusz.dajka@gmail.com>"]
 edition = "2018"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+itertools = "0.9.0"
+rand = "0.7.3"
+strum = { version = "0.19.5", features = ["derive"] }
